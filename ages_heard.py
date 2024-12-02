@@ -20,6 +20,7 @@ print(f"The average age of people that heard is: { avg_age_heard }")
 print(f"The average age of people that did not hear is: { avg_age_not_heard }")
 print(f"The std of people that did hear is: { std_heard }")
 print(f"The std of people that did not hear is: { std_not_heard }")
+print("Finished")
 
 heard_prc = []
 label = []
