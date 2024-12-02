@@ -13,7 +13,6 @@ std_not_heard = np.std(data_not_heard["age"])
 avg_age_heard = np.round(np.average(data_heard["age"]))
 avg_age_not_heard = np.round(np.average(data_not_heard["age"]))
 
-print(data.head(100))
 print(f"Youngest person is: { min(ages_data) } y/o")
 print(f"Oldest person is: { max(ages_data) } y/o")
 print(f"The average age of people that heard is: { avg_age_heard }")
