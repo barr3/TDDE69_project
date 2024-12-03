@@ -3,6 +3,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 data = pd.read_csv("./data/siren_data_train.csv")
+
+data.info()
+data.describe()
+
+print(data.head())
+
 ages_data = data["age"]
 data_heard = data.loc[data["heard"] == 1]
 data_not_heard = data.loc[data["heard"] == 0]
