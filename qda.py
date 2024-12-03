@@ -41,7 +41,7 @@ print(f"First 20 predictions: {prediction[0:20]}")
 print(f"First 20 y-values:    {y_test[0:20]}\n")
 
 cross = pd.crosstab(prediction, y_test)
-print("Consufion matrix, top is predicted outcomes:")
+print("Confusion matrix, top is predicted outcomes:")
 print(cross,'\n')
 
 x = cross[1][0] / ( cross[1][0] + cross[0][0] )
