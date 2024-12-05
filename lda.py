@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 import sklearn.linear_model as skl_lm
 import sklearn.discriminant_analysis as skl_da
 import sklearn.preprocessing as skl_pre
-from sklearn.model_selection import RepeatedStratifiedKFold
-from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import RepeatedStratifiedKFold, GridSearchCV
 
 
 np.random.seed(1) # same seed always
